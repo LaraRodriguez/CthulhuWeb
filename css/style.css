@@ -1,0 +1,35 @@
+#title{
+    background-color: green;
+    text-align: center;
+    height: 200px;
+    padding-top: 2%;
+}
+#cthulhutitle{
+    margin-top: 3%;
+}
+#subcthulhu{
+    text-align: center;
+}
+#navigation{
+    text-align: right;
+    background-color: black;
+    height: 50px;
+}
+#aside-menu{
+    display: inline-block;
+    width: 20%; 
+    border-left: solid green 2px;  
+}
+#container{
+    display: inline-block;
+    width: 70%;
+    margin-left: 3%;
+    padding-top: 5%;
+}
+h2{
+    text-decoration: underline;
+}
+#welcome{
+    text-align: left;
+    padding-right: 10%;
+}
