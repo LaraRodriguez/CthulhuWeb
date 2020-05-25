@@ -16,15 +16,23 @@
     height: 50px;
 }
 #aside-menu{
-    display: inline-block;
+    float: left;
     width: 20%; 
-    border-left: solid green 2px;  
-}
-#container{
-    display: inline-block;
-    width: 70%;
+    border-right: solid green 2px;  
+    margin-top: 1%;
     margin-left: 3%;
-    padding-top: 5%;
+}
+#container-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+#introduction{
+    margin-left: 1%;
+}
+#container-documentation{
+    margin-left: 1%;
 }
 h2{
     text-decoration: underline;
