@@ -4,6 +4,9 @@
     height: 200px;
     padding-top: 2%;
 }
+a{
+    color: green;
+}
 #cthulhutitle{
     margin-top: 3%;
 }
@@ -40,4 +43,73 @@ h2{
 #welcome{
     text-align: left;
     padding-right: 10%;
+}
+
+#personaltitle{
+    background-color: green;
+    text-align: center;
+    height: 200px;
+    padding-top: 5%;
+}
+#personal-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+#skill-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+#equipement-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+#job-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+#mentalill-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+#myth-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+#nacionality-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+#sanity-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+#weapon-introduction{
+    float: right;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: -5%;
 }
