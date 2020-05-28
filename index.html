@@ -7,8 +7,10 @@
         <meta name="keywords" content="Cthulhu, rol, API, Achtung, Call">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet">
+        <script src="main.js"></script>
     </head>
     <header>
+        
         <div id="navigation">
             <button type="button" class="btn btn-outline-success"><a href="./index.html">HOME</a></button>
             <button type="button" class="btn btn-outline-success">DOCUMENTATION</button>
@@ -69,10 +71,21 @@
                 </p>
                 </div>
                 <div id="container-documentation" class="row">
-                    <h2>Getting started</h2>
-                    <div id='element'></div> 
-                    <script src="main.js"></script>
-                    <p></p>
+                    <h2>Getting started</h2><hr>
+                    <p>If you've never used an API before, and you don't know what is it, I'll explain it in a moment.
+                        An API, is a set of definitions and protocols that is used to develop and integrate application software.
+                        In general terms, is the bridge between the data and the frontend of an app.
+                        In the next box, you can see how works an API. The program takes the data from a database in JSON language
+                        and then it translates the information that we want so we can see it more easily.
+                        For example, I want to know the name of an spell and the description:
+                    </p>
+                    <div id="element"></div>
+                    <button type="button" class="btn btn-success" onclick="skill_button()">Show skills</button>
+                    <p>As you can see, the program has shown the results that we wanted. 
+                        How?
+                        The API has connected to the database, that is uploaded in this place:
+                        https://achtungcthulhu.herokuapp.com/skills</p>
+                    <p>If you copy this link and search it in Google, it'll show you all the data that is saved in there.</p>
                 </div>
             </div>
         </div>
