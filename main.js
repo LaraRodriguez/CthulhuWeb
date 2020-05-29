@@ -1,4 +1,4 @@
-const url = 'https://achtungcthulhu.herokuapp.com'
+const url = 'https://achtungcthulhu.herokuapp.com/skills'
 
 function Fetch() {
   fetch(url)
@@ -13,7 +13,7 @@ function Fetch() {
 }
 
 function personal_button() {
-  fetch('http://www.dnd5eapi.co/api/spells/acid-arrow')
+  fetch('https://achtungcthulhu.herokuapp.com/equipement')
     .then(response => response.json())
     .then(data => {
 

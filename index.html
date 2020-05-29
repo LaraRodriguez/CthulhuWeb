@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet">
         <script src="main.js"></script>
+        <link rel="icon" type="image/png" href="./images/dotpict_20200529_102802.png" />
     </head>
     <header>
         
@@ -20,8 +21,13 @@
     </header>
     <body>
         <div id="title">
+            <img id="img-left" src="./images/kisspng-the-call-of-cthulhu-cthulhu-mythos-miskatonic-univ-5b22d9522b64b9.2637565415290105141778.png">
+            <div id="titletitle">
             <h1 id="cthulhutitle">Cthulhu API Documentation</h1>
             <h3 id="subcthulhu">Welcome, Guardian</h3>
+            </div>
+            <img id="img-right" src="./images/kisspng-the-call-of-cthulhu-cthulhu-mythos-miskatonic-univ-5b22d9522b64b9.2637565415290105141778.png">
+            
         </div>
 
         <div id="global-container">
@@ -80,7 +86,7 @@
                         For example, I want to know the name of an spell and the description:
                     </p>
                     <div id="element"></div>
-                    <button type="button" class="btn btn-success" onclick="skill_button()">Show skills</button>
+                    <button type="button" class="btn btn-success" onclick="Fetch()">Show skills</button>
                     <p>As you can see, the program has shown the results that we wanted. 
                         How?
                         The API has connected to the database, that is uploaded in this place:

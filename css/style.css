@@ -3,6 +3,25 @@
     text-align: center;
     height: 200px;
     padding-top: 2%;
+    
+}
+#titletitle{
+   
+    width: 50%;
+    margin-left: 25%;
+}
+#img-left{
+    float: left;
+    
+    width: 10%;
+    margin-left: 10%;
+}
+#img-right{
+    float: right;
+    
+    width: 10%;
+    margin-top: -9%;
+    margin-right: 10%;
 }
 a{
     color: green;
