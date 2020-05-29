@@ -13,14 +13,14 @@ function Fetch() {
 }
 
 function personal_button() {
-  fetch('https://achtungcthulhu.herokuapp.com/personalsheet')
+  fetch('http://www.dnd5eapi.co/api/spells/acid-arrow')
     .then(response => response.json())
     .then(data => {
 
-      let element = document.getElementById('element')
+      let element = document.getElementById('show-person')
       element.innerHTML = `
       <p>${data.name}</p>
-      <p>${data.description}</p>`;
+      <p>${data.desc}</p>`;
       console.log(data)
     })
     .catch(err => console.log(err))
@@ -44,7 +44,7 @@ function equipement_button() {
     .then(response => response.json())
     .then(data => {
 
-      let element = document.getElementById('element')
+      let element = document.getElementById('show-equip')
       element.innerHTML = `
       <p>${data.name}</p>
       <p>${data.description}</p>`;
@@ -86,7 +86,7 @@ function job_button(){
   .then(response => response.json() )
   .then(data => {
   
-    let element = document.getElementById('element')
+    let element = document.getElementById('show-job')
     element.innerHTML = `
     <p>${data.name}</p>
     <p>${data.description}</p>`;
